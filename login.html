@@ -114,11 +114,11 @@ ul, ol, dl { list-style: none; }
 			<div class="col-md-6" style="border-left: 1px solid lightgray">
 				<form class="bs-example bs-example-form" role="form" style="margin-left: 20px;">
 			        <div class="input-group">				
-			            <input type="text" style="width:300px;margin-bottom: 10px;" class="form-control" placeholder="你的手机号/邮箱">
+			            <input type="text" style="width:300px;margin-bottom: 10px;" class="form-control" id="username" placeholder="你的手机号/邮箱">
 			        </div>
     				<br>
 			        <div class="input-group">
-			            <input type="text" style="width:300px" class="form-control" placeholder="密码"><br>
+			            <input type="text" style="width:300px" class="form-control" id="code" placeholder="密码"><br>
 			            <a href="#" target="_blank" title="忘记密码？点击这里" style="float: right; font-size: 12px;color: cornflowerblue;">忘记密码？></a>
 			        </div>
     				<br>
@@ -129,7 +129,7 @@ ul, ol, dl { list-style: none; }
 		        			
 					
 					<div class ="row"> 
-						<div class ="col-md-3"><button type="button" class="btn btn-primary btn-block">登录</button></div> 
+						<div class ="col-md-3"><button type="button" id="login" class="btn btn-primary btn-block">登录</button></div>
 						<div class ="col-md-3"><button type="button" class="btn btn-default btn-block">注册</button></div> 
 					</div>
 				</form>
@@ -179,9 +179,32 @@ ul, ol, dl { list-style: none; }
 <script src="js/cityJson.js"></script>
 <script src="js/citySet.js"></script>
 <script type="text/javascript">
-$("#city").click(function (e) {
-	SelCity(this,e);
-});
+
+	$(document).ready(function () {
+
+        $("#city").click(function (e) {
+            SelCity(this,e)
+        });
+        $("#login").click(function () {
+            $.ajax({
+                type:"post",
+                url:"${pageContext.request.contextPath}/petUser/login",
+                dataType:"json",
+                data:{
+                    username:$("#username").val(),
+                    pwd:$("#code").val(),
+                },
+                success:function () {
+                    window.location="/index.html"
+                }
+            })
+        })
+
+
+    })
+
+
+
 
 
 </script>
