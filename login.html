@@ -68,7 +68,7 @@ ul, ol, dl { list-style: none; }
 			<nav class="navigation">
 				<ul>
 					<li class="current_page_item"><a href="index.html">登录</a></li>
-					<li><a href="register.html.html" class="register">注册</a></li>
+					<li><a href="register.html" class="register">注册</a></li>
 					
 
 					<li><input style="margin-top: 28px;margin-left: 20px;margin-right: 20px;" type="text" id="city" class="form-control" placeholder="请输入省份/城市/区域" /></li>
@@ -188,7 +188,7 @@ ul, ol, dl { list-style: none; }
         $("#login").click(function () {
             $.ajax({
                 type:"post",
-                url:"localhost:8080/PetCare/petUser/login",
+                url:"${pageContext.request.contextPath}/petUser/login",
                 dataType:"json",
                 data:{
                     username:$("#username").val(),
@@ -202,10 +202,6 @@ ul, ol, dl { list-style: none; }
 
 
     })
-
-
-
-
 
 </script>
 <!-- End js -->
