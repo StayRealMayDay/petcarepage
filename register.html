@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">  
+	<script src="js/jquery.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<title>爱萌宠-注册</title>
+	<meta name="description" content="Ori – Multi-purpose Business HTML Template">
+	<meta name="author" content="2code.info">
+	
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Main Style -->
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- Skins -->
+	<link rel="stylesheet" href="css/skins/skins.css">
+	
+	<!-- Responsive Style -->
+	<link rel="stylesheet" href="css/responsive.css">
+	
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon1.0.png">
+		
+		<style type="text/css">
+* { -ms-word-wrap: break-word; word-wrap: break-word; }
+html { -webkit-text-size-adjust: none; text-size-adjust: none; }
+html, body, h1, h2, h3, h4, h5, h6, div, ul, ol, li, dl, dt, dd, iframe, textarea, input, button, p, strong, b, i, a, span, del, pre, table, tr, th, td, form, fieldset, .pr, .pc { margin: 0; padding: 0; word-wrap: break-word; font-family: verdana,Microsoft YaHei,Tahoma,sans-serif; *font-family: Microsoft YaHei,verdana,Tahoma,sans-serif; }
+body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc, em, del { font-style: normal; font-size: 100%; }
+ul, ol, dl { list-style: none; }
+._citys { background-color: white; width: 450px; display: inline-block; border: 2px solid #eee; padding: 5px; position: relative; }
+._citys span { color: #56b4f8; height: 15px; width: 15px; line-height: 15px; text-align: center; border-radius: 3px; position: absolute; right: 10px; top: 10px; border: 1px solid #56b4f8; cursor: pointer; }
+._citys0 { width: 100%; height: 34px; display: inline-block; border-bottom: 2px solid #56b4f8; padding: 0; margin: 0; }
+._citys0 li { display: inline-block; line-height: 34px; font-size: 15px; color: #888; width: 80px; text-align: center; cursor: pointer; }
+.citySel { background-color: #56b4f8; color: #fff !important; }
+._citys1 { width: 100%; display: inline-block; padding: 10px 0; }
+._citys1 a { width: 83px; height: 35px; display: inline-block; background-color: #f5f5f5; color: #666; margin-left: 6px; margin-top: 3px; line-height: 35px; text-align: center; cursor: pointer; font-size: 13px; overflow: hidden; }
+._citys1 a:hover { color: #fff; background-color: #56b4f8; }
+.AreaS { background-color: #56b4f8 !important; color: #fff !important; }
+ a:link {text-decoration: none;}
+ a:visited{text-decoration: none;}
+ a:hover {text-decoration: none;}
+ a:active {text-decoration: none;}
+ .register{color: grey;}
+
+  		.hengxian{height: 80px;}
+ #yan{background-color: #B3B5B8;} 		
+ #nicheng{margin-bottom: 40px;width: 380px;}
+#button{background-color: #00A8FF;}
+.code {
+
+}
+#input1{width:300px;margin: 0;height: 40px;}
+#nicheng li{float: left;list-style: none;}
+.unchanged {
+border: 0;
+
+
+color: Red;
+border: 0;
+padding: 2px 3px;
+letter-spacing: 3px;
+font-weight: bolder;
+}
+		</style>
+ 
+</head>
+<body onload="createCode()">
+
+<div class="loader"><div class="loader_html"></div></div>
+
+<div id="wrap" class="grid_1200">
+	
+	<header id="header">
+		<div class="container clearfix">
+			<div class="logo"><a href="index.html"><img alt="" src="images/Logo1.0.png"></a><span>i moe chu~</span></div>
+			<div class="header-search">
+				<div class="header-search-a"><i class="fa fa-search"></i></div>
+				
+			</div>
+			<nav class="navigation">
+				<ul>
+					<li ><a href="index.html">登录</a></li>
+					<li class="current_page_item"><a href="features.html" class="register">注册</a></li>
+					
+
+					<li><input style="margin-top: 28px;margin-left: 20px;margin-right: 20px;" type="text" id="city" class="form-control" placeholder="请输入省份/城市/区域" /></li>
+
+				</ul>
+			</nav><!-- End navigation -->
+		</div><!-- End container -->
+	</header><!-- End header -->
+
+    <div style="background-color: lightblue; height: 100px;">
+    	<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1 style="color:salmon;font-size: 18px;margin-top: 20px;">注册</h1>
+					<span style="font-size: 13px;color: grey;">Plese Register</span>
+				</div>
+				<div class="col-md-6">
+					<div class="crumbs" style="margin-top: 25px;">You are here: <a style="color: salmon;" href="index.html">首页</a><span class="crumbs-span">&raquo;</span><span style="color: salmon;">注册</span></div>
+				</div>
+			</div><!-- End row -->
+		</div><!-- End container -->
+    </div>
+
+	<div class="container">
+		
+		<div class="row">
+			<div style="margin-top: 30px;">	
+			<!--<div style="width: 10%;float: left;></div>-->
+			<div style="width: 46%;float: left; height: 60px;margin-bottom: 10px;">
+				&nbsp;<hr />
+			</div>
+			<div style="width: 10%;float: left;">
+				<h1 align="center"><font color="black" size="6">注册</font></h1>
+			</div>
+			<div style="width: 44%;float: left;height: 60px;margin-bottom: 10px;">
+				&nbsp;<hr />
+			</div>			
+			<!--<div style="width: 10%;float: left;></div>-->
+		</div>
+		</div>
+		
+	
+		<div class="row">
+			<div class="col-md-6 col-md-offset-4">
+				<form class="bs-example bs-example-form" role="form" id="shuru" action="#">
+        				<div class="input-group input-group-lg" id="nicheng">
+           				 	
+          				  	<input type="text" class="form-control" placeholder="用户名（例：张三）" id="userNameInput" onblur="checkname()">
+          				  	<br/><span style ="margin-left:50px;color:#FF0000;" id="userNameSpan"></span>
+       					</div>
+     
+       					<div class="input-group input-group-lg" id="nicheng">
+            			<input type="password" class="form-control" placeholder="密码（6-16个字符组成，区分大小写）" id="userPwdInput" onblur="checkpwd1()">
+           				<br /><span id="userPwdSpan"  style="color:#FF0000;margin-left:50px"></span>
+        				</div>
+						
+						<div class="input-group input-group-lg" id="nicheng">
+            			<input type="password" class="form-control" placeholder="确认密码（6-16个字符组成，区分大小写）" id="userPwdInput2" onblur="checkpwd2()">
+           				<br /><span id="userPwdSpan2"  style="color:#FF0000;margin-left:50px"></span>
+        				</div>
+						
+        				
+						<div class="input-group input-group-lg" id="nicheng">
+            				<input type="text" class="form-control" placeholder="邮箱（邮箱格式为xxx@xxx.xx）" id="userEmInput" onblur="checkEmail()">
+           					<br /><span id="userEmSpan"  style="color:#FF0000;margin-left:50px"></span>
+        				</div>
+						
+						<div class="input-group input-group-lg" id="nicheng">
+            				<input type="text" class="form-control" placeholder="手机号码（11位数字）" id="userPhInput" onblur="checkPhnumber()">
+           					<br /><span id="userPhSpan"  style="color:#FF0000;margin-left:50px"></span>
+        				</div>
+        				<div class="input-group input-group-lg" id="nicheng">
+           				
+           				<li><input type="text" class="form-control" id="input1" onblur="validate()" placeholder="请输入验证码，区分大小写"/></li> 
+           				 <li><input type="text" onclick="createCode()" readonly="readonly" id="checkCode" class="unchanged" style="width: 80px;font-family: Arial;font-style: italic;color: #00A8FF;" /></li>  <br />
+   <!-- <input id="Button1" onclick="validate();" type="button" value="确定" />-->
+    					 <span id="checknum" style="color:#FF0000;margin-left:50px"></span> 
+			               </div>
+						
+                   
+                      	
+    				</form>
+					
+			</div>
+		</div>
+		<div class="row">
+   		  <div style="margin-bottom: 30px;margin-top: -25px;" class="col-md-offset-5"> 
+   			<button class="btn btn-lg btn-default btn-lg" type="submit" id="button"><font color="white">注册</font></button>
+   		</div>
+   		  </div>
+   	</div>
+     		
+	</div>		
+					
+			
+	
+	</div>
+
+	<footer id="footer-bottom">
+		<div class="container">
+			<div class="copyrights">Copyright 2014 Ori | Designer By <a target="_blank" href="http://7oroof.com/">7oroof</a> | Developer By <a target="_blank" href="http://2code.info/">2code</a></div>
+			<nav class="navigation-footer">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="features.html">Features</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="portfolio-description.html">Portfolio</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="shortcodes.html">Shortcodes</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div><!-- End container -->
+	</footer><!-- End footer-bottom -->
+	
+</div><!-- End wrap -->
+
+<div class="go-up"><i class="fa fa-chevron-up"></i></div>
+
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/html5.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/count-to.js"></script>
+<script src="js/twitter/jquery.tweet.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.themepunch.plugins.min.js"></script>
+<script src="js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/Popt.js"></script>
+<script src="js/cityJson.js"></script>
+<script src="js/citySet.js"></script>
+<script type="text/javascript">
+$("#city").click(function (e) {
+	SelCity(this,e);
+});
+</script>
+<script language="javascript" type="text/javascript">
+			var code; //在全局 定义验证码 
+			function createCode() {
+				code = new Array();
+				var codeLength = 4; //验证码的长度 
+				var checkCode = document.getElementById("checkCode");
+				checkCode.value = "";
+
+				var selectChar = new Array(2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+
+				for(var i = 0; i < codeLength; i++) {
+					var charIndex = Math.floor(Math.random() * 32);
+					code += selectChar[charIndex];
+				}
+				if(code.length != codeLength) {
+					createCode();
+				}
+				checkCode.value = code;
+			}
+
+			function checkname() {
+				var userNameInput = document.getElementById("userNameInput");
+				var userNameSpan = document.getElementById("userNameSpan");
+				var nok1 =  /^[\u4E00-\u9FA5a-zA-Z0-9_]{3,20}$/.test(userNameInput.value);
+				
+				if(userNameInput.value==""){
+					userNameSpan.innerHTML = "用户名不能为空";
+					return false;
+				}else if(!nok1){
+					userNameSpan.innerHTML = "汉字 英文字母 数字 下划线组成，3-20位";
+					return false;
+				} else {
+					userNameSpan.innerHTML = "";
+					return true;
+				}
+			}
+		
+			function checkpwd1() {
+				var userPwdInput = document.getElementById("userPwdInput");
+				var userPwdSpan = document.getElementById("userPwdSpan");
+				var pok1 = /^.{6,22}$/.test(userPwdInput.value);
+				var pok2 = /^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]+$/.test(userPwdInput.value);
+				if(!pok1) {
+					userPwdSpan.innerHTML = "请输入6~22位密码";
+					return false;
+				} else if(!pok2) {
+					userPwdSpan.innerHTML = "密码不能出现空格";
+					return false;
+				} else {
+					userPwdSpan.innerHTML = "";
+					return true;
+				}
+			}
+			
+			function checkpwd2() {
+				var userPwdInput2 = document.getElementById("userPwdInput2");
+				var userPwdSpan2 = document.getElementById("userPwdSpan2");
+				var userPwdInput1 = document.getElementById("userPwdInput");
+				
+				if(userPwdInput2.value!=userPwdInput1.value){
+					userPwdSpan2.innerHTML = "两次密码不一致";
+					return false;
+				}else if(userPwdInput2.value==""){
+					userPwdSpan2.innerHTML = "密码不能为空";
+					return false;
+				}else {
+					userPwdSpan2.innerHTML = "";
+					return ture;
+				}
+				
+			}
+
+			function checkEmail() {
+				var userEmInput = document.getElementById("userEmInput");
+				var userEmSpan = document.getElementById("userEmSpan");
+				var	re1 = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/.test(userEmInput.value);
+
+				if(userEmInput.value==""){
+					userEmSpan.innerHTML = "邮箱不能为空";
+					return false;
+				}else if(!re1){
+					userEmSpan.innerHTML = "邮箱格式错误";
+					return false;
+				} else {
+					userEmSpan.innerHTML = "";
+					return true;
+				}
+			}
+			function checkPhnumber() {
+				var userPhInput = document.getElementById("userPhInput");
+				var userPhSpan = document.getElementById("userPhSpan");
+				var noki1 = /^[1][0-9][0-9]{9}$/.test(userPhInput.value);
+				if(userPhInput.value==""){
+					userPhSpan.innerHTML = "手机号码不能为空";
+					return false;
+				}else if(!noki1){
+					userPhSpan.innerHTML = "手机号码格式错误";
+					return false;
+				} else {
+					userPhSpan.innerHTML = "";
+					return true;
+				}
+			}
+			
+			function validate() {
+    var inputCode = document.getElementById("input1").value;
+   
+    if(inputCode.length <= 0) {
+					checknum.innerHTML = "请输入验证码！";
+					return false;
+				} else if(inputCode != code) {
+					checknum.innerHTML = "验证码输入错误！";
+					return false;
+				}  else {
+					checknum.innerHTML = "  ";
+					return true;
+				}
+}
+</script>
+<!-- End js -->
+
+</body>
+</html>

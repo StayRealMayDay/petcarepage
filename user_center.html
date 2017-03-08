@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<title>爱萌宠-个人中心</title>
+	<meta name="description" content="Ori – Multi-purpose Business HTML Template">
+	<meta name="author" content="2code.info">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">  
+    <script src="js/jquery.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	
+	<!-- Basic Page Needs -->
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Main Style -->
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- Skins -->
+	<link rel="stylesheet" href="css/skins/skins.css">
+	
+	<!-- Responsive Style -->
+	<link rel="stylesheet" href="css/responsive.css">
+	
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon1.0.png">
+		
+		<style type="text/css">
+* { -ms-word-wrap: break-word; word-wrap: break-word; }
+html { -webkit-text-size-adjust: none; text-size-adjust: none; }
+html, body, h1, h2, h3, h4, h5, h6, div, ul, ol, li, dl, dt, dd, iframe, textarea, input, button, p, strong, b, i, a, span, del, pre, table, tr, th, td, form, fieldset, .pr, .pc { margin: 0; padding: 0; word-wrap: break-word; font-family: verdana,Microsoft YaHei,Tahoma,sans-serif; *font-family: Microsoft YaHei,verdana,Tahoma,sans-serif; }
+body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc, em, del { font-style: normal; font-size: 100%; }
+ul, ol, dl { list-style: none; }
+._citys { background-color: white; width: 450px; display: inline-block; border: 2px solid #eee; padding: 5px; position: relative; }
+._citys span { color: #56b4f8; height: 15px; width: 15px; line-height: 15px; text-align: center; border-radius: 3px; position: absolute; right: 10px; top: 10px; border: 1px solid #56b4f8; cursor: pointer; }
+._citys0 { width: 100%; height: 34px; display: inline-block; border-bottom: 2px solid #56b4f8; padding: 0; margin: 0; }
+._citys0 li { display: inline-block; line-height: 34px; font-size: 15px; color: #888; width: 80px; text-align: center; cursor: pointer; }
+.citySel { background-color: #56b4f8; color: #fff !important; }
+._citys1 { width: 100%; display: inline-block; padding: 10px 0; }
+._citys1 a { width: 83px; height: 35px; display: inline-block; background-color: #f5f5f5; color: #666; margin-left: 6px; margin-top: 3px; line-height: 35px; text-align: center; cursor: pointer; font-size: 13px; overflow: hidden; }
+._citys1 a:hover { color: #fff; background-color: #56b4f8; }
+.AreaS { background-color: #56b4f8 !important; color: #fff !important; }
+ a:link {text-decoration: none;}
+ a:visited{text-decoration: none;}
+ a:hover {text-decoration: none;}
+ a:active {text-decoration: none;}
+ .register{color: grey;}
+ .head_foot_content{width: 1000px;margin-left:auto;margin-right: auto;}
+.hengxian{height: 80px;}
+
+#sss{margin-top: 30px;margin-bottom: 30px;}
+
+#gerenzhongxin li{margin-top:20px; margin-right: 20px;}
+#gerenzhongxin h4{font-family: "微软雅黑";font-size: inherit;}
+.pic1{display: block;float: left;height: 160px;margin-top: 30px;width: 700px;border-bottom: 1px solid grey;}
+.pic1_1{display: block;float: left;position: relative; width: 160px;margin-right: 30px;height: 130px;border-radius:10px;}
+.wenzi{display: block;float: left;}
+ul{list-style:none;} 	
+li{list-style:none;} 
+.hh{margin-bottom: 15px;}
+.price{display: block;float:right;margin-right: 15px;}
+.price li{float: right;}
+
+.price_1{ display: block; margin-top: 100px;font-size: 14px;margin-right: -40px;}
+#yan{background-color: #B3B5B8;} 		
+#shuru{margin-top: 40px;}
+ #nicheng{width: 380px;height: 20px;margin-bottom: 40px;}
+ #button{background-color: #00A8FF;margin-left:150px ;margin-bottom: 40px;}
+ 
+ #home p{
+   		font-size:20px; 
+   		margin-top: 15px; 	
+   		color: #00A8FF;	
+   	}
+ #input1{width:300px;margin: 0;height: 40px;}
+#nicheng li{float: left;list-style: none;}
+.unchanged {
+border: 0;
+
+
+color: Red;
+border: 0;
+padding: 2px 3px;
+letter-spacing: 3px;
+font-weight: bolder;
+}  	
+</style>
+
+</style>
+  
+</head>
+<body onload="createCode()">
+
+<div class="loader"><div class="loader_html"></div></div>
+
+
+<div id="wrap" class="grid_1200" >
+	
+	
+	<header id="header">
+		<div class="container clearfix">
+			<div class="logo"><a href="index.html"><img alt="" src="images/Logo1.0.png"></a><span>i moe chu~</span></div>
+			<div class="header-search">
+				<div class="header-search-a"><i class="fa fa-search"></i></div>
+				
+			</div>
+			<nav class="navigation">
+				<ul>
+					<li class="current_page_item"><a href="login.html">登录</a></li>
+					<li><a href="register.html" class="register">注册</a></li>
+					
+
+					<li><input style="margin-top: 28px;margin-left: 20px;margin-right: 20px;height: 40px;" type="text" id="city" class="form-control" placeholder="请输入省份/城市/区域" /></li>
+
+				</ul>
+			</nav><!-- End navigation -->
+		</div><!-- End container -->
+	</header><!-- End header -->
+	
+	<div class="clearfix"></div>
+	  <div style="background-color: lightblue; height: 100px;">
+    	<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1 style="color:salmon;font-size: 18px;margin-top: 20px;">个人中心</h1>
+					<span style="font-size: 13px;color: grey;">All What You Need To Know About Us</span>
+				</div>
+				<div class="col-md-6">
+					<div class="crumbs" style="margin-top: 25px;">You are here: <a style="color: salmon;" href="index.html">首页</a><span class="crumbs-span">&raquo;</span><span style="color: salmon;">个人中心</span></div>
+				</div>
+			</div><!-- End row -->
+		</div><!-- End container -->
+    </div>
+
+<div class="backgroud_img" >
+<div class="container">
+
+  <ul class="nav nav-tabs" id="gerenzhongxin">
+    
+    <li class="active"><a data-toggle="tab" href="#home"><font size="4" color="#808080">个人资料</font></a></li>
+    <li><a data-toggle="tab" href="#menu1"><font size="4" color="#808080">修改密码</font></a></li>
+    <li><a data-toggle="tab" href="#menu2"><font size="4" color="#808080">我的收藏</font></a></li>
+    <li><a data-toggle="tab" href="#menu3"><font size="4" color="#808080">我的订单</font></a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+
+    <div class="row" id="sss">
+   	<div class="col-md-3"></div>
+   	<div class="col-md-2"><p style="text-align: right;">用户名：</p></div>
+   	<div class="col-md-4"> <div class="input-group input-group-lg"> 	<input type="text" class="form-control" value="dreamer" id="userNameInput" onblur="checkname()">
+          				  	<br/><span style ="margin-left:50px;color:#FF0000;" id="userNameSpan"></span>
+       					</div></div>
+   	<div class="col-md-3"></div>
+    </div>
+    <div class="row" id="sss">
+   	<div class="col-md-3"></div>
+   	<div class="col-md-2"><p style="text-align: right;">邮箱：</p></div>
+   	<div class="col-md-4"> <div class="input-group input-group-lg">	<input type="text" class="form-control" value="222222@qq.com" id="userEmInput" onblur="checkEmail()">
+           					<br /><span id="userEmSpan"  style="color:#FF0000;margin-left:50px"></span>
+        				</div></div>
+   	<div class="col-md-3"></div>
+    </div>
+    <div class="row" id="sss">
+   	<div class="col-md-3"></div>
+   	<div class="col-md-2"><p style="text-align: right;">联系方式：</p></div>
+   	<div class="col-md-4"> <div class="input-group input-group-lg">	<input type="text" class="form-control" value="15891334567" id="userPhInput" onblur="checkPhnumber()">
+           					<br /><span id="userPhSpan"  style="color:#FF0000;margin-left:50px"></span>
+        				</div></div>
+   	<div class="col-md-3"></div>
+   	</div>
+   	<div class="row">
+   		<div class="col-md-1 col-md-offset-4">
+   			<button class="btn btn-lg btn-default btn-lg" type="submit" id="button"><font color="white">保存</font></button>
+   		</div>
+   	</div>
+    
+	</div>
+  	  
+    <div id="menu1" class="tab-pane fade">
+      <div class="container">
+      	<div class="row">
+			<div class="col-md-6 col-md-offset-4">	
+				<form class="bs-example bs-example-form" role="form" id="shuru">
+
+						<div class="input-group input-group-lg" id="nicheng">
+            				<input type="password" class="form-control" placeholder="密码（6-16个字符组成，区分大小写）" id="userPwdInput" onblur="checkpwd1()">
+           				<br /><span id="userPwdSpan"  style="color:#FF0000;margin-left:50px"></span>
+        				
+        				</div>
+						<div class="input-group input-group-lg" id="nicheng">
+            				<input type="password" class="form-control" placeholder="确认密码（6-16个字符组成，区分大小写）" id="userPwdInput2" onblur="checkpwd2()">
+           				<br /><span id="userPwdSpan2"  style="color:#FF0000;margin-left:50px"></span>
+        				
+        				</div>
+        				<div class="input-group input-group-lg" id="nicheng">
+           				
+           				<li><input type="text" class="form-control" id="input1" onblur="validate()" placeholder="请输入验证码，区分大小写"/></li> 
+           				 <li><input type="text" onclick="createCode()" readonly="readonly" id="checkCode" class="unchanged" style="width: 80px;font-family: Arial;font-style: italic;color: #00A8FF;" /></li>  <br />
+   <!-- <input id="Button1" onclick="validate();" type="button" value="确定" />-->
+    					 <span id="checknum" style="color:#FF0000;margin-left:50px"></span> 
+			               </div>
+				   	
+    				</form>
+    		</div>		
+		</div>
+      <div class="row">
+   		<div class=" col-md-offset-4">
+   			<button class="btn btn-lg btn-default btn-lg" type="submit" id="button"><font color="white">保存</font></button>
+   		</div>
+   	</div>
+      </div>
+    
+     </div>
+    
+
+    <div id="menu2" class="tab-pane fade">
+       <div class="row">
+      	<div class="col-md-6 col-md-offset-2">
+      	<ul class="pic1">
+				<img src="images/1600x532.jpg" class="pic1_1">
+					<a href="商品详情"></a>
+				</img>	
+			
+			<div class="wenzi">
+				<li class="hh"><a href=""><font size="5">狗仔队宠物店</font></a></li>
+				<li class="hh"><font size="2" color="#000000"><img style="margin-top: -5px;" src="images/icon-address.png" /> 地址：<a href=""><span> 四川成都府南区&nbsp;</span></font></a></li>
+				<li class="hh"><img style="margin-top:-5px ;" src="images/icon-phone.png"/><a style="color: dodgerblue;" href="">  4.9分 | 用户评分</a></li>
+				<li><font size="2"><img style="margin-top:-5px ;" src="images/comment-icon.png" /> “很不错的呢”</font></li>
+				
+			</div>
+			<div class="price">
+				<li>
+					<button type="button" class="btn btn-danger">删除</button>
+				</li>
+				<li class="price_1"><font color="#000000">收藏时间：2017-03-06</font></li>
+			</div>
+			
+			</ul>
+        <ul class="pic1">
+				<img src="images/1600x532.jpg" class="pic1_1">
+					<a href="商品详情"></a>
+				</img>	
+			
+			<div class="wenzi">
+				<li class="hh"><a href=""><font size="5">狗仔队宠物店</font></a></li>
+				<li class="hh"><font size="2" color="#000000"><img style="margin-top: -5px;" src="images/icon-address.png" /> 地址：<a href=""><span> 四川成都府南区&nbsp;</span></font></a></li>
+				<li class="hh"><img style="margin-top:-5px ;" src="images/icon-phone.png"/><a style="color: dodgerblue;" href="">  4.9分 | 用户评分</a></li>
+				<li><font size="2"><img style="margin-top:-5px ;" src="images/comment-icon.png" /> “很不错的呢”</font></li>
+				
+			</div>
+			<div class="price">
+				<li>
+					<button type="button" class="btn btn-danger">删除</button>
+				</li>
+				<li class="price_1"><font color="#000000">收藏时间：2017-03-06</font></li>
+			</div>
+			
+			</ul>
+		<ul class="pic1">
+				<img src="images/1600x532.jpg" class="pic1_1">
+					<a href="商品详情"></a>
+				</img>	
+			
+			<div class="wenzi">
+				<li class="hh"><a href=""><font size="3">狗仔队宠物店</font></a></li>
+				<li class="hh"><a href=""><span style="text-decoration:underline">四川成都府南区</span></a></li>
+				<li class="hh"><a href="">4.9分 | 用户评分</a></li>
+				<li>“很不错的呢”</li>
+			</div>
+			<div class="price">
+				<button type="button" class="btn btn-danger">删除</button>
+			</div>
+			</ul>
+		<ul class="pic1">
+				<img src="images/1600x532.jpg" class="pic1_1">
+					<a href="商品详情"></a>
+				</img>	
+			
+			<div class="wenzi">
+				<li class="hh"><a href=""><font size="3">狗仔队宠物店</font></a></li>
+				<li class="hh"><a href=""><span style="text-decoration:underline">四川成都府南区</span></a></li>
+				<li class="hh"><a href="">4.9分 | 用户评分</a></li>
+				<li>“很不错的呢”</li>
+			</div>
+			<div class="price">
+				<button type="button" class="btn btn-danger">删除</button>
+			</div>
+			</ul>
+      	</div>
+        </div>
+   
+    </div>
+    
+        <div id="menu3" class="tab-pane fade">
+       <div class="row">
+      	<div class="col-md-6 col-md-offset-2">
+      	<ul class="pic1">
+				<img src="images/1600x532.jpg" class="pic1_1">
+					<a href="商品详情"></a>
+				</img>	
+			
+			<div class="wenzi">
+				<li class="hh"><a href=""><font size="5">狗仔队宠物店</font></a></li>
+				<li class="hh"><font size="2" color="#000000"><img style="margin-top: -5px;" src="images/icon-address.png" /> 地址：<a href=""><span> 四川成都府南区&nbsp;</span></font></a></li>
+				<li class="hh"><img style="margin-top:-5px ;" src="images/icon-phone.png"/><a style="color: dodgerblue;" href="">  4.9分 | 用户评分</a></li>
+				<li><font size="2"><img style="margin-top:-5px ;" src="images/comment-icon.png" /> “很不错的呢”</font></li>
+			</div>
+			<div class="price">
+				<li><button class="btn btn-primary" type="button"> 评价 </button></li>
+				<li class="price_1"><font color="#000000">交易时间：2017-03-06</font></li>
+			</div>
+			</ul>
+		<ul class="pic1">
+				<img src="images/1600x532.jpg" class="pic1_1">
+					<a href="商品详情"></a>
+				</img>	
+			
+			<div class="wenzi">
+				<li class="hh"><a href=""><font size="3">狗仔队宠物店</font></a></li>
+				<li class="hh"><a href=""><span style="text-decoration:underline">四川成都府南区</span></a></li>
+				<li class="hh"><a href="">4.9分 | 用户评分</a></li>
+				<li>“很不错的呢”</li>
+			</div>
+			<div class="price">
+				<button class="btn btn-primary" type="button"> 评价 </button>
+			</div>
+			</ul>
+		<ul class="pic1">
+				<img src="images/1600x532.jpg" class="pic1_1">
+					<a href="商品详情"></a>
+				</img>	
+			
+			<div class="wenzi">
+				<li class="hh"><a href=""><font size="3">狗仔队宠物店</font></a></li>
+				<li class="hh"><a href=""><span style="text-decoration:underline">四川成都府南区</span></a></li>
+				<li class="hh"><a href="">4.9分 | 用户评分</a></li>
+				<li>“很不错的呢”</li>
+			</div>
+			<div class="price">
+				<button class="btn btn-primary" type="button"> 评价 </button>
+			</div>
+			</ul>
+		<ul class="pic1">
+				<img src="images/1600x532.jpg" class="pic1_1">
+					<a href="商品详情"></a>
+				</img>	
+			
+			<div class="wenzi">
+				<li class="hh"><a href=""><font size="3">狗仔队宠物店</font></a></li>
+				<li class="hh"><a href=""><span style="text-decoration:underline">四川成都府南区</span></a></li>
+				<li class="hh"><a href="">4.9分 | 用户评分</a></li>
+				<li>“很不错的呢”</li>
+			</div>
+			<div class="price">
+				<button class="btn btn-primary" type="button"> 评价 </button>
+			</div>
+			</ul>
+      	</div>
+        </div>
+   
+    </div>
+    
+</div>
+	
+</div>
+	</div>
+<!-- End wrap -->
+<div>
+		<footer id="footer-bottom">
+		<div class="container">
+			<div class="copyrights">Copyright 2014 Ori | Designer By <a target="_blank" href="http://7oroof.com/">7oroof</a> | Developer By <a target="_blank" href="http://2code.info/">2code</a></div>
+			<nav class="navigation-footer">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="features.html">Features</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="portfolio-description.html">Portfolio</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="shortcodes.html">Shortcodes</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div><!-- End container -->
+	</footer><!-- End footer-bottom -->
+	
+</div>
+<div class="go-up"><i class="fa fa-chevron-up"></i></div>
+
+		<div class="modal" id="mymodal">
+			<!-- 窗口声明 -->
+			<div class="modal-dialog">
+				<!-- 内容声明 -->
+				<div class="modal-content">
+					
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title" style="font-family: '微软雅黑';font-size: 16px;color: black;">评论</h4>
+					</div>
+					<div class="modal-body">
+						<form role="form">
+							<div class="form-group">
+								<textarea class="form-control" rows="7" placeholder="请在这里输入评论···"></textarea>
+							</div>
+						</form>
+						<div style="font-size: 13px;">请评分：
+		<a href="javascript:click(1)"><img src="img/star.png" id="star1" onMouseOver="over(1)" onMouseOut="out(1)"/></a>
+		<a href="javascript:click(2)"><img src="img/star.png" id="star2" onMouseOver="over(2)" onMouseOut="out(2)" /></a>
+		<a href="javascript:click(3)"><img src="img/star.png" id="star3" onMouseOver="over(3)" onMouseOut="out(3)" /></a>
+		<a href="javascript:click(4)"><img src="img/star.png" id="star4" onMouseOver="over(4)" onMouseOut="out(4)"/></a>
+		<a href="javascript:click(5)"><img src="img/star.png" id="star5" onMouseOver="over(5)" onMouseOut="out(5)"/></a>
+		<span id="message"></span>
+	</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+						<button type="submit" class="btn btn-primary">提交</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+
+
+<!-- js -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/html5.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/count-to.js"></script>
+<script src="js/twitter/jquery.tweet.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.themepunch.plugins.min.js"></script>
+<script src="js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/Popt.js"></script>
+<script src="js/cityJson.js"></script>
+<script src="js/citySet.js"></script>
+<script type="text/javascript">
+$("#city").click(function (e) {
+	SelCity(this,e);
+});
+
+$(function() {
+				$(".btn-primary").click(function() {
+					$("#mymodal").modal("toggle");
+				});
+			});
+
+</script>
+
+<script type="text/javascript">
+var check = 0;//该变量是记录当前选择的评分
+var time = 0;//该变量是统计用户评价的次数，这个是我的业务要求统计的（改变评分不超过三次），可以忽略
+
+/*over()是鼠标移过事件的处理方法*/
+function over(param){
+	if(param == 1){
+		$("#star1").attr("src","img/star_red.png");//第一颗星星亮起来，下面以此类推
+		$("#message").html("很差");//设置提示语，下面以此类推
+	}else if(param == 2){
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star_red.png");
+		$("#message").html("比较差");
+	}else if(param == 3){
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star_red.png");
+		$("#star3").attr("src","img/star_red.png");
+		$("#message").html("一般");
+	}else if(param == 4){
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star_red.png");
+		$("#star3").attr("src","img/star_red.png");
+		$("#star4").attr("src","img/star_red.png");
+		$("#message").html("比较好");
+	}else if(param == 5){
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star_red.png");
+		$("#star3").attr("src","img/star_red.png");
+		$("#star4").attr("src","img/star_red.png");
+		$("#star5").attr("src","img/star_red.png");
+		$("#message").html("很好");
+	}
+}
+/*out 方法是鼠标移除事件的处理方法，当鼠标移出时，恢复到我的打分情况*/
+function out(){
+	if(check == 1){//打分是1，设置第一颗星星亮，其他星星暗，其他情况以此类推
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star.png");
+		$("#star3").attr("src","img/star.png");
+		$("#star4").attr("src","img/star.png");
+		$("#star5").attr("src","img/star.png");
+		$("#message").html("");
+	}else if(check == 2){
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star_red.png");
+		$("#star3").attr("src","img/star.png");
+		$("#star4").attr("src","img/star.png");
+		$("#star5").attr("src","img/star.png");
+		$("#message").html("");
+	}else if(check == 3){
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star_red.png");
+		$("#star3").attr("src","img/star_red.png");
+		$("#star4").attr("src","img/star.png");
+		$("#star5").attr("src","img/star.png");
+		$("#message").html("");
+	}else if(check == 4){
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star_red.png");
+		$("#star3").attr("src","img/star_red.png");
+		$("#star4").attr("src","img/star_red.png");
+		$("#star5").attr("src","img/star.png");
+		$("#message").html("");
+	}else if(check == 5){
+		$("#star1").attr("src","img/star_red.png");
+		$("#star2").attr("src","img/star_red.png");
+		$("#star3").attr("src","img/star_red.png");
+		$("#star4").attr("src","img/star_red.png");
+		$("#star5").attr("src","img/star_red.png");
+		$("#message").html("");
+	}else if(check == 0){
+		$("#star1").attr("src","img/star.png");
+		$("#star2").attr("src","img/star.png");
+		$("#star3").attr("src","img/star.png");
+		$("#star4").attr("src","img/star.png");
+		$("#star5").attr("src","img/star.png");
+		$("#message").html("");
+	}
+}
+/*click()点击事件处理，记录打分*/
+function click(param){
+	time++;//记录打分次数
+	check = param;//记录当前打分
+	out();//设置星星数
+}
+</script>
+
+<script src="js/jquery.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script language="javascript" type="text/javascript">
+			var code; //在全局 定义验证码 
+			function createCode() {
+				code = new Array();
+				var codeLength = 4; //验证码的长度 
+				var checkCode = document.getElementById("checkCode");
+				checkCode.value = "";
+
+				var selectChar = new Array(2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+
+				for(var i = 0; i < codeLength; i++) {
+					var charIndex = Math.floor(Math.random() * 32);
+					code += selectChar[charIndex];
+				}
+				if(code.length != codeLength) {
+					createCode();
+				}
+				checkCode.value = code;
+			}
+
+			function checkname() {
+				var userNameInput = document.getElementById("userNameInput");
+				var userNameSpan = document.getElementById("userNameSpan");
+				var nok1 =  /^[\u4E00-\u9FA5a-zA-Z0-9_]{3,20}$/.test(userNameInput.value);
+				
+				if(userNameInput.value==""){
+					userNameSpan.innerHTML = "用户名不能为空";
+					return false;
+				}else if(!nok1){
+					userNameSpan.innerHTML = "汉字 英文字母 数字 下划线组成，3-20位";
+					return false;
+				} else {
+					userNameSpan.innerHTML = "";
+					return true;
+				}
+			}
+		
+			function checkpwd1() {
+				var userPwdInput = document.getElementById("userPwdInput");
+				var userPwdSpan = document.getElementById("userPwdSpan");
+				var pok1 = /^.{6,22}$/.test(userPwdInput.value);
+				var pok2 = /^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]+$/.test(userPwdInput.value);
+				if(!pok1) {
+					userPwdSpan.innerHTML = "请输入6~22位密码";
+					return false;
+				} else if(!pok2) {
+					userPwdSpan.innerHTML = "密码不能出现空格";
+					return false;
+				} else {
+					userPwdSpan.innerHTML = "";
+					return true;
+				}
+			}
+			
+			function checkpwd2() {
+				var userPwdInput2 = document.getElementById("userPwdInput2");
+				var userPwdSpan2 = document.getElementById("userPwdSpan2");
+				var userPwdInput1 = document.getElementById("userPwdInput");
+				
+				if(userPwdInput2.value!=userPwdInput1.value){
+					userPwdSpan2.innerHTML = "两次密码不一致";
+					return false;
+				}else if(userPwdInput2.value==""){
+					userPwdSpan2.innerHTML = "密码不能为空";
+					return false;
+				}else {
+					userPwdSpan2.innerHTML = "";
+					return ture;
+				}
+				
+			}
+
+			function checkEmail() {
+				var userEmInput = document.getElementById("userEmInput");
+				var userEmSpan = document.getElementById("userEmSpan");
+				var	re1 = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/.test(userEmInput.value);
+
+				if(userEmInput.value==""){
+					userEmSpan.innerHTML = "邮箱不能为空";
+					return false;
+				}else if(!re1){
+					userEmSpan.innerHTML = "邮箱格式错误";
+					return false;
+				} else {
+					userEmSpan.innerHTML = "";
+					return true;
+				}
+			}
+			function checkPhnumber() {
+				var userPhInput = document.getElementById("userPhInput");
+				var userPhSpan = document.getElementById("userPhSpan");
+				var noki1 = /^[1][0-9][0-9]{9}$/.test(userPhInput.value);
+				if(userPhInput.value==""){
+					userPhSpan.innerHTML = "手机号码不能为空";
+					return false;
+				}else if(!noki1){
+					userPhSpan.innerHTML = "手机号码格式错误";
+					return false;
+				} else {
+					userPhSpan.innerHTML = "";
+					return true;
+				}
+			}
+			
+			function validate() {
+    var inputCode = document.getElementById("input1").value;
+   
+    if(inputCode.length <= 0) {
+					checknum.innerHTML = "请输入验证码！";
+					return false;
+				} else if(inputCode != code) {
+					checknum.innerHTML = "验证码输入错误！";
+					return false;
+				}  else {
+					checknum.innerHTML = "  ";
+					return true;
+				}
+}
+</script>
+
+<!-- End js -->
+
+
+</body>
+</html>
